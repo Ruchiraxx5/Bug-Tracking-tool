@@ -1,20 +1,14 @@
-.App {
-  text-align: center;
+.background {
+background-image: url('./images/48959bcd670f75e82e25a3a6d5b6d9ab.jpg');
+  background-size: cover;
+  background-position: center;
+  height: 300vh;
+  width: 100%;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
 
 .App-header {
-  background-color: #282c34;
+  background-color: #ffc814;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
@@ -36,3 +30,26 @@
     transform: rotate(360deg);
   }
 }
+.chart-section {
+  margin-top: 40px;
+}
+
+.chart-section > div {
+  margin-bottom: 50px;
+}
+
+h1, h2, h3 {
+  font-size: 2em; /* adjust as needed */
+}
+
+p {
+  font-size: 0.85em;
+}
+
+ul li {
+  padding: 5px;
+  font-size: 0.85em;
+}
+
+
+
